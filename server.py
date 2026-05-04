@@ -3,7 +3,8 @@ from python_atem import Atem
 
 app = Flask(__name__)
 
-ATEM_IP = "192.168.1.50"   # ← wpisz swoje IP
+# 🔧 WPISZ IP SWOJEGO ATEM MINI PRO
+ATEM_IP = "192.168.1.50"
 
 atem = Atem(ATEM_IP)
 atem.connect()
