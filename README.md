@@ -1,5 +1,7 @@
 # atem
 
+
+
 Panel do zmiany adresu RTMP w ATEM Mini Pro uruchamiany na Androidzie (Termux), bez Node.js, bez npm, bez kompilacji.
 
 ## 1. Instalacja w Termux
