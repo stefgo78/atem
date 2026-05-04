@@ -8,3 +8,9 @@ Panel do zmiany adresu RTMP w ATEM Mini Pro uruchamiany na Androidzie (Termux), 
 pkg update
 pkg install python git
 pip install -r requirements.txt
+
+START:
+python server.py
+
+http://IP_ANDROID:3000
+
