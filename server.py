@@ -1,13 +1,13 @@
 from flask import Flask, request, jsonify, send_from_directory
-from python_atem import Atem
+from pyatem import ATEM
 
 app = Flask(__name__)
 
 # 🔧 WPISZ IP SWOJEGO ATEM MINI PRO
 ATEM_IP = "192.168.1.50"
 
-atem = Atem(ATEM_IP)
-atem.connect()
+atem = ATEM()
+atem.connect(ATEM_IP)
 
 PRESETS = {
     "youtube": {
